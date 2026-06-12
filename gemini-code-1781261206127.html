@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroConecta Sustentável - Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <h1>Agro<span>Conecta</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#calculadora">Calculadora</a></li>
+                    <li><a href="#dicas">Práticas Sustentáveis</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="interface">
+            <h2>Agro Forte, Futuro Sustentável</h2>
+            <p>Descubra como equilibrar a alta produtividade no campo com a preservação do meio ambiente.</p>
+            <a href="#calculadora" class="btn-principal">Testar Minha Propriedade</a>
+        </div>
+    </section>
+
+    <main class="interface">
+        
+        <section id="sobre" class="sobre-projeto">
+            <h2>O Equilíbrio no Campo</h2>
+            <p>O projeto <strong>AgroConecta Sustentável</strong> foi desenvolvido para o Agrinho 2026 com o objetivo de guiar produtores rurais na jornada da sustentabilidade. Produzir alimentos e proteger a natureza não são caminhos opostos, são o futuro da nossa agricultura.</p>
+        </section>
+
+        <section id="calculadora" class="calculadora-container">
+            <h2>Calculadora de Impacto Verde</h2>
+            <p>Selecione as práticas que você já adota ou deseja adotar na sua propriedade para medir o nível de sustentabilidade:</p>
+            
+            <div class="calculadora-box">
+                <div class="opcoes">
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="pratica-sustentavel" value="25">
+                        Plantio Direto (Protege o solo e evita erosão)
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="pratica-sustentavel" value="25">
+                        Rotação de Culturas (Mantém os nutrientes da terra)
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="pratica-sustentavel" value="25">
+                        Captação de Água da Chuva / Irrigação Gota a Gota
+                    </label>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="pratica-sustentavel" value="25">
+                        Uso de Energia Renovável (Solar ou Biomassa)
+                    </label>
+                </div>
+
+                <div class="resultado-painel">
+                    <h3>Status da Propriedade</h3>
+                    <div class="barra-progresso-fundo">
+                        <div id="barra-progresso" class="barra-progresso-cheia"></div>
+                    </div>
+                    <p id="porcentagem-texto">0% Sustentável</p>
+                    <p id="feedback-mensagem">Marque as opções para ver o diagnóstico do seu ecossistema.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dicas" class="cards-secao">
+            <h2>Manual Prático de Sustentabilidade</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Proteção do Solo</h3>
+                    <p>O uso de cobertura morta e do plantio direto impede o impacto da chuva forte, reduzindo drasticamente a perda de terra produtiva.</p>
+                </div>
+                <div class="card">
+                    <h3>Manejo da Água</h3>
+                    <p>Sistemas automatizados de gotejamento reduzem o desperdício de água em até 60%, aplicando o recurso direto na raiz da planta.</p>
+                </div>
+                <div class="card">
+                    <h3>Biodiversidade</h3>
+                    <p>Manter as Áreas de Preservação Permanente (APPs) atrai polinizadores naturais que aumentam a produtividade das lavouras próximas.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AgroConecta - Projeto Escolar para o Concurso Agrinho. Desenvolvido com tecnologias Front-End e Alura.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
